@@ -12,6 +12,13 @@ const Tab = createBottomTabNavigator();
 function App() {
   return (
     <NavigationContainer>
+      {/*
+        You can provide `tabBarOptions` if you want to change something like
+        styles for the tab bar, active/inactive tint color/bg color, label
+        visibility, etc.
+
+        https://reactnavigation.org/docs/bottom-tab-navigator/#tabbaroptions
+      */}
       <Tab.Navigator>
         <Tab.Screen
           name="Home"
